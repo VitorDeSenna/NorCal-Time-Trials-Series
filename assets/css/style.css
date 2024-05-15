@@ -8,8 +8,14 @@ img {
         padding: 4px;
 
 }
+
+.car {
+        margin: 0 40px 300px 15px;
+}
+
 ul {
         list-style-type: none;
+        margin-bottom: 50px;
 }
 
 li {
