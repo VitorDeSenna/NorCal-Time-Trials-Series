@@ -1,4 +1,4 @@
-img {
+.logo {
         width: 150px;
         height: 150px;
         display: block;
@@ -10,7 +10,13 @@ img {
 }
 
 .car {
-        margin: 0 40px 300px 15px;
+        width: 150px;
+        height: 150px;
+        display: block;
+        clear: both;
+        float: left;
+        padding: 4px;
+        margin: 0 60px 300px 15px;
 }
 
 ul {
