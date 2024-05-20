@@ -28,6 +28,10 @@ li {
         display: inline-block;
         margin-right: 10px;
 }
+.border2{
+        border-style: none solid none solid;
+        /*border-color:white blue white blue;*/
+}
 
 h1 {
         margin: 40px 0px 40px;
