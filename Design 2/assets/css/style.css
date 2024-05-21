@@ -1,0 +1,52 @@
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: 0px 40px 20px 15px;
+    justify-content: flex-start;
+    padding: 4px;
+    display: flex;
+
+}
+
+.car {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    /* display: block;
+    padding: 4px;
+    margin: 0 60px 300px 15px; */
+*/
+}
+
+ul {
+    justify-content: flex-end;
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+
+    display: inline-block;
+    margin: 5px;
+    border-style: solid;
+    padding: 1px 20px 5px;
+    background-color: darkblue;
+}
+
+h1 {
+    margin: 40px 0px 40px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+}
+
+div{
+    display: flex;
+align-items: flex-start;
+}
