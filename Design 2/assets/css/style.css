@@ -1,7 +1,7 @@
 .logo {
     width: 150px;
     height: 150px;
-    margin: 0px 40px 20px 15px;
+    margin: 16px 40px 20px 15px;
     justify-content: flex-start;
     padding: 4px;
     display: flex;
@@ -10,7 +10,7 @@
 
 .car {
     width: 100%;
-    height: 500px;
+    height: 800px;
     object-fit: cover;
 }
 
@@ -30,9 +30,17 @@ li {
 
     display: inline-block;
     margin: 5px;
-    border-style: solid;
-    padding: 1px 20px 5px;
-    background-color: darkblue;
+}
+li p a {
+    color: white;
+    font-size: 15px;
+    background-color: royalblue;
+    padding: 10px 20px;
+    border: 1px solid darkblue;
+    text-decoration: none;
+}
+a:active {
+    background-color: green;
 }
 
 h1 {
@@ -44,7 +52,7 @@ h2 {
     justify-content: center;
 }
 
-.content {
+main{
     display: flex;
 }
 
