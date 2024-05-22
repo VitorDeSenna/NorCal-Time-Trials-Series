@@ -1,6 +1,6 @@
 .logo {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height:250px;
     margin: 16px 40px 20px 15px;
     justify-content: flex-start;
     padding: 4px;
@@ -12,6 +12,8 @@
     width: 100%;
     height: 800px;
     object-fit: cover;
+    position: relative;
+    z-index: -1;
 }
 
 
@@ -21,7 +23,7 @@
     justify-content: space-between;
 }
 ul {
-    margin: 20px 0 -45px 0;
+    margin: 40px 0 -45px 0;
     list-style-type: none;
     display: flex;
 }
@@ -52,11 +54,10 @@ h2 {
     justify-content: center;
 }
 
+.content{
+    margin-right: 20%;
+}
 main{
     display: flex;
-}
-
-.heroPic{
-    background-image: url("../assets/media/car1-3dda6fa4.png");
 }
 
