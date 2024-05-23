@@ -28,13 +28,19 @@ li {
         display: inline-block;
         margin-right: 10px;
 }
-.border2{
+
+.border2 {
         border-style: none solid none solid;
         border-color: blue;
         padding: 0 10px 0;
 }
-.border2 p{
-        margin:0;
+
+.border2 p {
+        margin: 0;
+}
+
+a.current {
+        text-decoration: none;
 }
 
 h1 {
